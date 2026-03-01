@@ -1,0 +1,17 @@
+Software Engineering Intern – Summer 2026
+
+Responsibilities:
+- Build backend services and APIs to support new product features.
+- Collaborate with cross-functional teams to design scalable systems.
+- Write clean, maintainable code in Python and JavaScript.
+- Participate in code reviews and contribute to engineering best practices.
+
+Required Qualifications:
+- Experience with Python or JavaScript.
+- Familiarity with REST APIs.
+- Understanding of data structures and algorithms.
+- Strong communication and collaboration skills.
+
+Preferred Qualifications:
+- Experience with Docker or AWS.
+- Exposure to SQL or NoSQL databases.

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "bullet_0",
+    "text": "Automated scholarship-reminder workflows by building Google Apps Script systems that send targeted emails to students, reducing manual outreach and increasing response rates."
+  },
+  {
+    "id": "bullet_1",
+    "text": "Built a 100+-entry scholarship database with built-in verification logic, enabling accurate tracking and streamlined advising workflows."
+  },
+  {
+    "id": "bullet_2",
+    "text": "Facilitated academic workshops and directed support for course planning and financial aid for first-generation and non-traditional students."
+  },
+  {
+    "id": "bullet_3",
+    "text": "Analyzing 10,000+ California election records in R, building data-processing pipelines to aggregate, filter, and model precinct-level voting patterns."
+  },
+  {
+    "id": "bullet_4",
+    "text": "Applying machine-learning methods to evaluate potential impacts of the California Voting Rights Act across multiple jurisdictions."
+  },
+  {
+    "id": "bullet_5",
+    "text": "Led 4-engineer team to build a Svelte event platform for 1,000+ attendees, delivering real-time schedules and announcements."
+  },
+  {
+    "id": "bullet_6",
+    "text": "Integrated secure Stripe payments to streamline registration and merchandise transactions."
+  },
+  {
+    "id": "bullet_7",
+    "text": "Expanded build mode in Unreal Engine 5, implementing new assets and features resulting in a 73\\% increase of new building placements."
+  },
+  {
+    "id": "bullet_8",
+    "text": "Developed and integrated new camera settings, expanding functionality by 75\\%."
+  },
+  {
+    "id": "bullet_9",
+    "text": "Collaborated with designers to debug new features, reducing post-deployment issues."
+  },
+  {
+    "id": "bullet_10",
+    "text": "Tutored over 30 peers in core course concepts during weekly lab sessions."
+  },
+  {
+    "id": "bullet_11",
+    "text": "Conducted a targeted review session leading to scores 10\\% above class average."
+  },
+  {
+    "id": "bullet_12",
+    "text": "Engineered 15+ custom text features including TF-IDF transformations, character n-grams, and punctuation ratios to capture spam indicators in 8,000+ email datasets."
+  },
+  {
+    "id": "bullet_13",
+    "text": "Implemented and compared Logistic Regression, Decision Trees, and Random Forests using scikit-learn, achieving 96\\%+ test accuracy through systematic hyperparameter tuning and k-fold cross-validation."
+  },
+  {
+    "id": "bullet_14",
+    "text": "Built end-to-end ML pipeline predicting home sale prices across 500,000+ records, incorporating 61 features including property characteristics, location data, and temporal variables."
+  },
+  {
+    "id": "bullet_15",
+    "text": "Performed comprehensive feature engineering creating polynomial terms, interaction features, and categorical encodings; applied Ridge and Lasso regularization to handle multicollinearity."
+  },
+  {
+    "id": "bullet_16",
+    "text": "Achieved top-quartile prediction accuracy on held-out test set through systematic model tuning and outlier handling."
+  },
+  {
+    "id": "bullet_17",
+    "text": "Designed complex MongoDB aggregation pipelines using PyMongo to query and transform nested JSON documents from Yelp's academic dataset with variable schemas."
+  },
+  {
+    "id": "bullet_18",
+    "text": "Built document-oriented data models leveraging embedded arrays and references, comparing performance tradeoffs between MongoDB's flexible schema and traditional relational databases."
+  },
+  {
+    "id": "bullet_19",
+    "text": "Performed update operations including upserts and bulk modifications with text indexing across 100,000+ documents."
+  },
+  {
+    "id": "bullet_20",
+    "text": "Engineered ETL pipeline processing 1+ million sensor readings from UC Berkeley buildings, cleaning malformed timestamps, handling missing data, and normalizing measurement units."
+  },
+  {
+    "id": "bullet_21",
+    "text": "Designed normalized relational schema with proper foreign key constraints and indexing strategies, transforming denormalized CSV data into efficient PostgreSQL database structure optimized for billions of rows."
+  },
+  {
+    "id": "bullet_22",
+    "text": "Implemented complex SQL aggregations including window functions and CTEs to compute rolling averages and detect anomalies."
+  },
+  {
+    "id": "bullet_23",
+    "text": "Analyzed query execution plans using EXPLAIN ANALYZE on Lahman's Baseball Database (1871-2020), identifying performance bottlenecks and optimizing slow queries."
+  },
+  {
+    "id": "bullet_24",
+    "text": "Implemented B-tree and hash indexes on high-cardinality columns, reducing query execution time by 10-50x on complex joins across 150+ years of player statistics."
+  },
+  {
+    "id": "bullet_25",
+    "text": "Compared views vs materialized views for frequently-accessed data, benchmarking different query formulations."
+  },
+  {
+    "id": "bullet_26",
+    "text": "Built interactive 3D Gaussian splat painting system by extending Nerfstudio's Viser renderer, implementing real-time color editing tools for large point-cloud scenes with millions of Gaussians."
+  },
+  {
+    "id": "bullet_27",
+    "text": "Developed polyline-based brush-stroke selection algorithm by projecting 3D Gaussian centers into screen space and computing point-to-stroke distances."
+  },
+  {
+    "id": "bullet_28",
+    "text": "Implemented image-based color transfer using Pillow and NumPy, mapping 2D pixel values onto 3D splats through normalized coordinate projection."
+  },
+  {
+    "id": "bullet_29",
+    "text": "Implemented physically-based cloth simulation using spring-mass systems with structural, shearing, and bending constraints; applied Verlet integration for stable numerical solving."
+  },
+  {
+    "id": "bullet_30",
+    "text": "Developed collision detection and response algorithms for self-collisions and object interactions, using spatial hashing to optimize performance for meshes with 10,000+ vertices."
+  },
+  {
+    "id": "bullet_31",
+    "text": "Integrated GLSL shaders for realistic cloth rendering including Blinn-Phong, texture mapping, and environment-mapped reflections."
+  },
+  {
+    "id": "bullet_32",
+    "text": "Built Monte Carlo path tracer implementing ray-primitive intersection tests, BVH acceleration structures, and direct/indirect illumination with importance sampling."
+  },
+  {
+    "id": "bullet_33",
+    "text": "Implemented BSDF materials including diffuse, mirror, glass, and microfacet models using Fresnel reflectance and multiple importance sampling."
+  },
+  {
+    "id": "bullet_34",
+    "text": "Optimized rendering performance through BVH tree construction using surface area heuristic, reducing render times from hours to minutes for scenes with 100K+ triangles."
+  },
+  {
+    "id": "bullet_35",
+    "text": "Implemented AI agents using A* search with custom heuristics, minimax with alpha-beta pruning, and expectimax for adversarial gameplay."
+  },
+  {
+    "id": "bullet_36",
+    "text": "Developed Q-learning and approximate Q-learning agents with feature-based representations, achieving 80\\%+ win rates by learning optimal policies through temporal difference updates."
+  },
+  {
+    "id": "bullet_37",
+    "text": "Built probabilistic inference system using Bayes nets and particle filtering for ghost tracking in partially observable environments."
+  },
+  {
+    "id": "bullet_38",
+    "text": "Implemented neural networks from scratch in PyTorch including perceptrons, MLPs, CNNs, RNNs, and attention mechanisms to solve regression, MNIST digit classification, and language identification tasks."
+  },
+  {
+    "id": "bullet_39",
+    "text": "Built complete training pipelines with mini-batch gradient descent, cross-entropy loss, and backpropagation; achieved 97\\%+ accuracy on MNIST and 81\\%+ on language ID benchmarks."
+  },
+  {
+    "id": "bullet_40",
+    "text": "Optimized model performance through systematic hyperparameter tuning of learning rates, hidden layer sizes, and network depth."
+  },
+  {
+    "id": "bullet_41",
+    "text": "Built secure file-sharing system with end-to-end encryption, user authentication via digital signatures, hierarchical access control with delegation and revocation, resilient to malicious servers."
+  },
+  {
+    "id": "bullet_42",
+    "text": "Implemented hybrid cryptography combining AES-256 symmetric encryption for file data with RSA public-key encryption for key exchange; used HMAC for integrity verification."
+  },
+  {
+    "id": "bullet_43",
+    "text": "Designed secure sharing protocol enabling owners to grant and revoke access efficiently through capability-based security model."
+  },
+  {
+    "id": "bullet_44",
+    "text": "Built discrete-event network simulator in Python implementing distance-vector and link-state routing protocols, analyzing convergence behavior and handling link failures."
+  },
+  {
+    "id": "bullet_45",
+    "text": "Implemented TCP congestion control algorithms (Reno, Tahoe, CUBIC) with slow-start, congestion avoidance, and fast recovery; benchmarked throughput and fairness."
+  },
+  {
+    "id": "bullet_46",
+    "text": "Simulated network topologies with varying bandwidth, latency, and packet loss; measured performance metrics including queue utilization and end-to-end delay."
+  },
+  {
+    "id": "bullet_47",
+    "text": "Analyzed 30+ years of California climate data from NOAA and CalFire using R and Python, investigating correlations between rising temperatures, drought indices, and wildfire frequency."
+  },
+  {
+    "id": "bullet_48",
+    "text": "Built time-series forecasting models using ARIMA and random forests to predict wildfire risk based on meteorological variables."
+  },
+  {
+    "id": "bullet_49",
+    "text": "Created interactive geospatial visualizations with ggplot2 and leaflet mapping temporal trends in fire season length and burned acreage."
+  },
+  {
+    "id": "bullet_50",
+    "text": "Directed team of four to develop an AI tutor website utilizing OpenAI GPT-3; focused on backend architecture including API integration with Node.js, secure user authentication, and Firebase data management."
+  },
+  {
+    "id": "bullet_51",
+    "text": "Managed project version control and collaborated with team members to merge features and resolve conflicts effectively."
+  },
+  {
+    "id": "bullet_52",
+    "text": "Led development of 2D tile-based world generation engine implementing binary space partitioning for random room placement and A* pathfinding algorithm for intelligent NPC navigation."
+  },
+  {
+    "id": "bullet_53",
+    "text": "Designed player interaction system with inventory management and save/load functionality using Java serialization; culminating in 2000+ lines of code and 300 git commits."
+  },
+  {
+    "id": "bullet_54",
+    "text": "Modified Unity C\\# codebase using Harmony patching to improve player climbing mechanics by 150\\%."
+  },
+  {
+    "id": "bullet_55",
+    "text": "Accumulated over 20,000 user downloads and 64 dependencies from other developers on Thunderstore modding platform."
+  }
+]
