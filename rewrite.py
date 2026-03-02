@@ -15,4 +15,6 @@ if __name__ == "__main__":
     import json
     job = json.load(open("job.json"))
     bullets = json.load(open("selected_bullets.json"))
-    print(rewrite_bullets(bullets, job))
+    rewritten = rewrite_bullets(bullets, job)
+    print(json.dumps(rewritten, indent=2))
+
