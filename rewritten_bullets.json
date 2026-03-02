@@ -1,0 +1,110 @@
+[
+  {
+    "id": "bullet_0",
+    "text": "Streamlined onboarding by rewriting technical documentation and setup guides, reducing new\u00e2\u20ac\u2018member setup time by 40\\% and cutting recurring support questions.",
+    "rewrite": {
+      "original": "Streamlined onboarding by rewriting technical documentation and setup guides, reducing new\u00e2\u20ac\u2018member setup time by 40\\% and cutting recurring support questions.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_1",
+    "text": "Resolved student environment issues and SSH key conflicts across 50+ support interactions, improving system access reliability and lowering repeat incidents.",
+    "rewrite": {
+      "original": "Resolved student environment issues and SSH key conflicts across 50+ support interactions, improving system access reliability and lowering repeat incidents.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_2",
+    "text": "Automated internal workflows with lightweight Python and Bash scripts, eliminating 3--5 hours of manual officer work per month and standardizing routine tasks.",
+    "rewrite": {
+      "original": "Automated internal workflows with lightweight Python and Bash scripts, eliminating 3--5 hours of manual officer work per month and standardizing routine tasks.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_3",
+    "text": "Built a comprehensive seating-chart web app for NAVCAL facilitators featuring drag-and-drop seat assignment, automated cold-calling lists, advanced attendee filtering, and CSV/printable exports.",
+    "rewrite": {
+      "original": "Built a comprehensive seating-chart web app for NAVCAL facilitators featuring drag-and-drop seat assignment, automated cold-calling lists, advanced attendee filtering, and CSV/printable exports.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_4",
+    "text": "Improved facilitator productivity by 400\\% by drastically reducing setup time and streamlining outreach and check-in workflows.",
+    "rewrite": {
+      "original": "Improved facilitator productivity by 400\\% by drastically reducing setup time and streamlining outreach and check-in workflows.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_5",
+    "text": "Integrated real-time syncing with Google Sheets and calendar systems to keep rosters and assignments current.",
+    "rewrite": {
+      "original": "Integrated real-time syncing with Google Sheets and calendar systems to keep rosters and assignments current.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_6",
+    "text": "Developed a secure accounts-receivable portal consolidating client resources, invoice tracking, messaging, and contact forms; secured file storage via Dropbox integration.",
+    "rewrite": {
+      "original": "Developed a secure accounts-receivable portal consolidating client resources, invoice tracking, messaging, and contact forms; secured file storage via Dropbox integration.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_7",
+    "text": "Clients reported a ~40\\% reduction in administrative coordination time and a ~30\\% increase in timely client responses after centralizing resources on the portal.",
+    "rewrite": {
+      "original": "Clients reported a ~40\\% reduction in administrative coordination time and a ~30\\% increase in timely client responses after centralizing resources on the portal.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_8",
+    "text": "Implemented authentication, role-based access control, responsive UI, and HTTPS to ensure secure, convenient access for clients and staff.",
+    "rewrite": {
+      "original": "Implemented authentication, role-based access control, responsive UI, and HTTPS to ensure secure, convenient access for clients and staff.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_9",
+    "text": "Automated scholarship-reminder workflows by building Google Apps Script systems that send targeted emails to students, reducing manual outreach and increasing response rates.",
+    "rewrite": {
+      "original": "Automated scholarship-reminder workflows by building Google Apps Script systems that send targeted emails to students, reducing manual outreach and increasing response rates.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_10",
+    "text": "Built a 100+-entry scholarship database with built-in verification logic, enabling accurate tracking and streamlined advising workflows.",
+    "rewrite": {
+      "original": "Built a 100+-entry scholarship database with built-in verification logic, enabling accurate tracking and streamlined advising workflows.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  },
+  {
+    "id": "bullet_11",
+    "text": "Facilitated academic workshops and directed support for course planning and financial aid for first-generation and non-traditional students.",
+    "rewrite": {
+      "original": "Facilitated academic workshops and directed support for course planning and financial aid for first-generation and non-traditional students.",
+      "emphasis": [],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: "
+    }
+  }
+]

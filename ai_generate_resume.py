@@ -16,42 +16,51 @@ job = json.load(open("job.json", "r", encoding="utf-8"))
 selected = json.load(open("selected_bullets.json", "r", encoding="utf-8"))
 rewritten = json.load(open("rewritten_bullets.json", "r", encoding="utf-8"))
 
-prompt = f""" You are a LaTeX résumé rewriting assistant focused on maximizing interview conversion. Your objectives: 
-- Rewrite the entire résumé using the original LaTeX file as the structural template. 
-- Update ALL relevant sections (Skills, WORK AND LEADERSHIP EXPERIENCE, Experience, Projects, Coursework, etc.) to best match the job description and the rewritten bullet metadata. 
-- Use the rewritten bullet metadata to guide emphasis: highlight impact, quantification, technical depth, and alignment with required skills. 
-Content rules: - Keep at most THREE experience items and THREE project items. 
-- Each item may contain at most THREE bullet points. 
-- Prioritize bullets that demonstrate quantifiable impact, leadership, ownership, technical depth, or direct relevance to the job. 
-- Remove or shorten bullets that are low‑impact, redundant, non‑quantitative, or irrelevant to the job. 
-- You may rewrite bullets for clarity, conciseness, and impact, but do NOT invent experiences or technologies not present in the original résumé or rewritten bullet metadata. 
-- You may reorder sections and items to maximize relevance and interview likelihood. Formatting rules: 
-- Preserve ALL LaTeX formatting exactly: documentclass, packages, macros, custom commands, spacing, layout, and sectioning. 
-- Do NOT modify the preamble. 
-- Do NOT introduce new LaTeX commands. 
-- Do NOT output markdown or explanations. 
-- Output ONLY valid LaTeX. Rewrite strategy: 
-- For each experience/project, rewrite bullets to emphasize: • measurable outcomes • technical sophistication • leadership or ownership • alignment with job-required skills (Python, SQL, AWS, Docker, JavaScript, etc.) 
-- Use the rewritten bullet metadata to guide emphasis and phrasing. 
-- Remove coursework and skills unless it meaningfully improves relevance. 
-- Ensure the final résumé compiles cleanly to ONE PAGE. This is mandatory. 
-- Do not include anything to indicate age such as education graduation date. Any phrases like "Expected by..." are bad
+prompt = f"""
+You rewrite LaTeX résumés and must output ONLY valid LaTeX that fully compiles.
+
+Strict rules:
+- Preserve the original LaTeX structure exactly: documentclass, packages, macros, custom commands, spacing, layout, and sectioning.
+- Do NOT modify the preamble.
+- Do NOT remove or alter \\begin{{document}} or \\end{{document}}.
+- Do NOT output markdown, comments, explanations, or code fences.
+- Output a complete, valid .tex file.
+
+Rewrite rules:
+- Rewrite the résumé to maximize interview conversion.
+- Use the rewritten bullet metadata to guide emphasis on impact, quantification, technical depth, and alignment with required skills.
+- Keep at most 3 experience items and 3 project items, each with at most 3 bullet points.
+- Prioritize recent experience (within ~2 years) when relevant.
+- Remove or shorten low‑impact, redundant, or irrelevant bullets.
+- Remove coursework unless highly relevant.
+- Remove graduation dates or age‑revealing info.
+- You may tighten spacing or shorten text to ensure the résumé fits on ONE PAGE without harming readability.
+- Do NOT invent new jobs, skills, or technologies.
 
 Inputs:
-Original resume (.tex):
-{original_resume}
-Job description (parsed):
-{json.dumps(job, indent=2)}
 
-Selected bullets:
+Original LaTeX résumé:
+{original_resume}
+
+Job description (condensed):
+{json.dumps({
+    "title": job.get("title", ""),
+    "skills_required": job.get("skills_required", []),
+    "responsibilities": job.get("responsibilities", [])[:6]
+}, indent=2)}
+
+Rewritten bullets (with emphasis metadata):
+{json.dumps(rewritten, indent=2)}
+
+Selected bullets (for reference):
 {json.dumps(selected, indent=2)}
 
-Rewritten bullets (with metadata for emphasis):
-{json.dumps(rewritten, indent=2)}
+Now output the FULL rewritten LaTeX résumé, preserving the preamble and structure.
 """
 
+
 response = client.chat.completions.create(
-model="groq/compound",
+model="llama-3.3-70b-versatile",
 messages=[{"role": "user", "content": prompt}],
 temperature=0
 )
