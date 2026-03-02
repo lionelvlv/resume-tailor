@@ -16,22 +16,28 @@ job = json.load(open("job.json", "r", encoding="utf-8"))
 selected = json.load(open("selected_bullets.json", "r", encoding="utf-8"))
 rewritten = json.load(open("rewritten_bullets.json", "r", encoding="utf-8"))
 
-prompt = f"""
-You are a LaTeX résumé rewriting assistant.
+prompt = f""" You are a LaTeX résumé rewriting assistant focused on maximizing interview conversion. Your objectives: 
+- Rewrite the entire résumé using the original LaTeX file as the structural template. 
+- Update ALL relevant sections (Skills, WORK AND LEADERSHIP EXPERIENCE, Experience, Projects, Coursework, etc.) to best match the job description and the rewritten bullet metadata. 
+- Use the rewritten bullet metadata to guide emphasis: highlight impact, quantification, technical depth, and alignment with required skills. 
+Content rules: - Keep at most THREE experience items and THREE project items. 
+- Each item may contain at most THREE bullet points. 
+- Prioritize bullets that demonstrate quantifiable impact, leadership, ownership, technical depth, or direct relevance to the job. 
+- Remove or shorten bullets that are low‑impact, redundant, non‑quantitative, or irrelevant to the job. 
+- You may rewrite bullets for clarity, conciseness, and impact, but do NOT invent experiences or technologies not present in the original résumé or rewritten bullet metadata. 
+- You may reorder sections and items to maximize relevance and interview likelihood. Formatting rules: 
+- Preserve ALL LaTeX formatting exactly: documentclass, packages, macros, custom commands, spacing, layout, and sectioning. 
+- Do NOT modify the preamble. 
+- Do NOT introduce new LaTeX commands. 
+- Do NOT output markdown or explanations. 
+- Output ONLY valid LaTeX. Rewrite strategy: 
+- For each experience/project, rewrite bullets to emphasize: • measurable outcomes • technical sophistication • leadership or ownership • alignment with job-required skills (Python, SQL, AWS, Docker, JavaScript, etc.) 
+- Use the rewritten bullet metadata to guide emphasis and phrasing. 
+- Remove coursework and skills unless it meaningfully improves relevance. 
+- Ensure the final résumé compiles cleanly to ONE PAGE. This is mandatory. 
+- Do not include anything to indicate age such as education graduation date. Any phrases like "Expected by..." are bad
 
-Goal:
-- Take the original LaTeX résumé.
-- Update ALL relevant sections (summary, skills, WORK AND LEADERSHIP EXPERIENCE, experience, projects, coursework, etc.)
-  to best match the job description and the rewritten bullets.
-- Filter and trim content so that the final compiled résumé is approximately ONE PAGE.
-- This means at most 3 items for work experience and projects
-- Each item should have at most 3 bullet points. Trim bullet points that aren't quantitative or demonstrate impact.
-- Prefer keeping the strongest, most relevant experiences and projects.
-- You may shorten or remove less relevant bullets/sections to stay within one page.
-- Preserve ALL LaTeX formatting: documentclass, packages, macros, custom commands, spacing, and layout.
-- Do NOT change the preamble or structure beyond swapping/rewriting content.
-- Output ONLY valid LaTeX, no explanations, no markdown.
-
+Inputs:
 Original resume (.tex):
 {original_resume}
 Job description (parsed):
@@ -40,12 +46,12 @@ Job description (parsed):
 Selected bullets:
 {json.dumps(selected, indent=2)}
 
-Rewritten bullets:
+Rewritten bullets (with metadata for emphasis):
 {json.dumps(rewritten, indent=2)}
 """
 
 response = client.chat.completions.create(
-model="llama-3.3-70b-versatile",
+model="groq/compound",
 messages=[{"role": "user", "content": prompt}],
 temperature=0
 )

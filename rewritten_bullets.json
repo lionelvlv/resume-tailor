@@ -1,14 +1,182 @@
 [
-  "Designed normalized relational schema with proper foreign key constraints and indexing strategies, transforming denormalized CSV data into efficient PostgreSQL database structure optimized for billions of rows. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Implemented complex SQL aggregations including window functions and CTEs to compute rolling averages and detect anomalies. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Built discrete-event network simulator in Python implementing distance-vector and link-state routing protocols, analyzing convergence behavior and handling link failures. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Analyzed 30+ years of California climate data from NOAA and CalFire using R and Python, investigating correlations between rising temperatures, drought indices, and wildfire frequency. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Automated scholarship-reminder workflows by building Google Apps Script systems that send targeted emails to students, reducing manual outreach and increasing response rates. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Built a 100+-entry scholarship database with built-in verification logic, enabling accurate tracking and streamlined advising workflows. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Facilitated academic workshops and directed support for course planning and financial aid for first-generation and non-traditional students. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Analyzing 10,000+ California election records in R, building data-processing pipelines to aggregate, filter, and model precinct-level voting patterns. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Applying machine-learning methods to evaluate potential impacts of the California Voting Rights Act across multiple jurisdictions. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Led 4-engineer team to build a Svelte event platform for 1,000+ attendees, delivering real-time schedules and announcements. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Integrated secure Stripe payments to streamline registration and merchandise transactions. (emphasizing: AWS, Docker, JavaScript, Python, SQL)",
-  "Expanded build mode in Unreal Engine 5, implementing new assets and features resulting in a 73\\% increase of new building placements. (emphasizing: AWS, Docker, JavaScript, Python, SQL)"
+  {
+    "id": "bullet_21",
+    "text": "Designed normalized relational schema with proper foreign key constraints and indexing strategies, transforming denormalized CSV data into efficient PostgreSQL database structure optimized for billions of rows.",
+    "rewrite": {
+      "original": "Designed normalized relational schema with proper foreign key constraints and indexing strategies, transforming denormalized CSV data into efficient PostgreSQL database structure optimized for billions of rows.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_22",
+    "text": "Implemented complex SQL aggregations including window functions and CTEs to compute rolling averages and detect anomalies.",
+    "rewrite": {
+      "original": "Implemented complex SQL aggregations including window functions and CTEs to compute rolling averages and detect anomalies.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_44",
+    "text": "Built discrete-event network simulator in Python implementing distance-vector and link-state routing protocols, analyzing convergence behavior and handling link failures.",
+    "rewrite": {
+      "original": "Built discrete-event network simulator in Python implementing distance-vector and link-state routing protocols, analyzing convergence behavior and handling link failures.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_47",
+    "text": "Analyzed 30+ years of California climate data from NOAA and CalFire using R and Python, investigating correlations between rising temperatures, drought indices, and wildfire frequency.",
+    "rewrite": {
+      "original": "Analyzed 30+ years of California climate data from NOAA and CalFire using R and Python, investigating correlations between rising temperatures, drought indices, and wildfire frequency.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_0",
+    "text": "Automated scholarship-reminder workflows by building Google Apps Script systems that send targeted emails to students, reducing manual outreach and increasing response rates.",
+    "rewrite": {
+      "original": "Automated scholarship-reminder workflows by building Google Apps Script systems that send targeted emails to students, reducing manual outreach and increasing response rates.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_1",
+    "text": "Built a 100+-entry scholarship database with built-in verification logic, enabling accurate tracking and streamlined advising workflows.",
+    "rewrite": {
+      "original": "Built a 100+-entry scholarship database with built-in verification logic, enabling accurate tracking and streamlined advising workflows.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_2",
+    "text": "Facilitated academic workshops and directed support for course planning and financial aid for first-generation and non-traditional students.",
+    "rewrite": {
+      "original": "Facilitated academic workshops and directed support for course planning and financial aid for first-generation and non-traditional students.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_3",
+    "text": "Analyzing 10,000+ California election records in R, building data-processing pipelines to aggregate, filter, and model precinct-level voting patterns.",
+    "rewrite": {
+      "original": "Analyzing 10,000+ California election records in R, building data-processing pipelines to aggregate, filter, and model precinct-level voting patterns.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_4",
+    "text": "Applying machine-learning methods to evaluate potential impacts of the California Voting Rights Act across multiple jurisdictions.",
+    "rewrite": {
+      "original": "Applying machine-learning methods to evaluate potential impacts of the California Voting Rights Act across multiple jurisdictions.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_5",
+    "text": "Led 4-engineer team to build a Svelte event platform for 1,000+ attendees, delivering real-time schedules and announcements.",
+    "rewrite": {
+      "original": "Led 4-engineer team to build a Svelte event platform for 1,000+ attendees, delivering real-time schedules and announcements.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_6",
+    "text": "Integrated secure Stripe payments to streamline registration and merchandise transactions.",
+    "rewrite": {
+      "original": "Integrated secure Stripe payments to streamline registration and merchandise transactions.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  },
+  {
+    "id": "bullet_7",
+    "text": "Expanded build mode in Unreal Engine 5, implementing new assets and features resulting in a 73\\% increase of new building placements.",
+    "rewrite": {
+      "original": "Expanded build mode in Unreal Engine 5, implementing new assets and features resulting in a 73\\% increase of new building placements.",
+      "emphasis": [
+        "AWS",
+        "Docker",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ],
+      "rewritten_hint": "Focus on impact, quantification, and relevance to: AWS, Docker, JavaScript, Python, SQL"
+    }
+  }
 ]

@@ -6,4 +6,6 @@ subprocess.run("python match.py > selected_bullets.json", shell=True)
 subprocess.run("python rewrite.py > rewritten_bullets.json", shell=True)
 subprocess.run("python ai_generate_resume.py", shell=True)
 
-print("Pipeline complete. Compile tailored_resume.tex with pdflatex.")
+#Compile PDF 
+subprocess.run("tectonic tailored_resume.tex", shell=True) 
+print("Pipeline complete. PDF generated: tailored_resume.pdf")
