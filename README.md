@@ -6,7 +6,7 @@ Automated pipeline that rewrites your LaTeX résumé using Groq, aligns it to a 
 
 ### 1. Clone the project
 ```bash
-git clone https://github.com/yourusername/resume-tailor
+git clone https://github.com/lionelvlv/resume-tailor
 cd resume-tailor
 ```
 
